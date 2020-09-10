@@ -220,6 +220,7 @@ export default {
       padding: 4px 15px 0 15px;
       margin: 9px 0;
       width: 150px;
+      color: white;
     }
     .tel {
       float: right;

@@ -25,7 +25,7 @@
       </div> -->
       <el-row style="display:flex;justify-content:space-between">
         <el-col :span="6" v-for="(item, index) in imgList1" :key="index" class="hot-item">
-          <el-card :body-style="{ padding: '0px' }">
+          <el-card :body-style="{ padding: '0px' }" class="fangda">
             <img :src="item.img" class="image">
             <div style="padding: 14px;">
               <span>{{item.des}}</span>
@@ -44,6 +44,19 @@
           <span style="font-weight:bold">MORE</span>
         </div>
       </div>
+      <el-row style="display:flex;justify-content:space-between">
+        <el-col :span="6" v-for="(item, index) in imgList1" :key="index" class="hot-item">
+          <el-card :body-style="{ padding: '0px' }" class="fangda">
+            <img :src="item.img" class="image">
+            <div style="padding: 14px;">
+              <span>{{item.des}}</span>
+              <div class="bottom clearfix">
+                <time class="time">￥{{item.price}}元</time>
+              </div>
+            </div>
+          </el-card>
+        </el-col>
+      </el-row>
     </el-card>
     <el-card style="margin-top:20px">
       <div slot="header">
@@ -197,6 +210,9 @@ export default {
   background-color: #d3dce6;
   color: #475669;
 } */
+.el-carousel__item{
+  border-radius: 10px;
+}
 .el-carousel__item img{
   position: relative;
 }
@@ -224,6 +240,9 @@ export default {
 </style>
 <style>
 /* 热卖商品 */
+.fangda:hover{
+  transform: scale(1.2);
+}
 .time {
   font-size: 13px;
   color: #999;

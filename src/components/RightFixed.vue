@@ -70,11 +70,6 @@ body {
   right: 0;
   top: 20%;
 }
-.el-card__header {
-  padding: 10px 20px !important;
-  background-color: #ffba57;
-  color: white;
-}
 .item {
   margin-bottom: 10px;
 }

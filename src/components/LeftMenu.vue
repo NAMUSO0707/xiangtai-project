@@ -102,11 +102,13 @@ body {
   }
 }
 </style>
-<style lang="scss">
+<style>
 .el-card__header {
+  font-size: 16px;
   padding: 10px 20px !important;
-  background-color: #ffba57;
-  color: white;
+  background-color: #fff;
+  color: #ffba57;
+  border-bottom: 0 !important;
 }
 .item {
   margin-bottom: 10px;

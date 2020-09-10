@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <el-card class="box-card" style="margin-top:20px">
+    <el-card class="box-card">
       <div slot="header">
         <div style="display:flex;justify-content:space-between">
           <span>奖牌及证书</span>
@@ -164,11 +164,6 @@ body {
 }
 </style>
 <style lang="scss">
-.el-card__header {
-  padding: 10px 20px !important;
-  background-color: #ffba57;
-  color: white;
-}
 .item {
   margin-bottom: 10px;
 }
