@@ -55,7 +55,7 @@
         <el-scrollbar style="width:100%;height:100%">
           <div style="display:flex;width:500px">
             <div v-for="(item,index) in imgList1" :key="index" style="margin-right:20px">
-              <img :src="item.img" alt="" height="40px">
+              <img :src="item.img" alt="" width="150px" height="40px">
             </div>
           </div>
         </el-scrollbar>
